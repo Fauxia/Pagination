@@ -1,0 +1,133 @@
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: purple;
+}
+.nav-links li a{
+    font-size: 1.5rem;
+    padding: .3rem .6rem;
+    border-radius: 4px;
+}
+.nav-links a.active{
+    background: lightgoldenrodyellow;
+}
+main{
+    text-align: center;
+    font-size: 2rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.container{
+    border: 2px solid black;
+    display: grid;
+    row-gap: 2rem;
+    padding: .5rem;
+}
+.des{
+    display: flex;
+    justify-content: space-between;
+}
+.cart{
+    font-size: 3rem;
+}
+.btn{
+    background-color: black;
+    padding: .3rem .5rem;
+    border-radius: 6px;
+    color: #fff;
+    transition: all .3s ease;
+    justify-self: start;
+    
+}
+.heading{
+    font-size: 3rem;
+}
+.btn:hover{
+    background: rgba(0, 0, 0, 0.9);
+}
+.App{
+    display: grid;
+    gap:1rem;
+}
+li{
+    list-style: circle;
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+}
+input[type=text]{
+    border: 1px solid black;
+}
+.comp button{
+    padding: .0 1rem;
+    background: lightgreen;
+    border-radius: 6px;
+}
+.h1{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.h1::before{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 2px;
+    background: purple;
+    bottom: 0;
+    /* left: 0; */
+}
+.prod,.name{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}
+.ui{
+    border: 1px solid black;
+    padding: 1.5rem;
+}
+.ui h2{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.ui p{
+    text-align: center;
+}
+.ui button{
+    padding: .2rem .5rem;
+    background: royalblue;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1.3rem;
+    display: block;
+    margin: .5rem auto;
+}
+.ui img{
+    width: 150px;
+    text-align: center;
+    /* height: 100px; */
+    margin: auto;
+}
+.ui div{
+    display: grid;
+}
+.nav-link{
+    display: flex;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    padding: .5rem;
+}
+.nav-link li{
+    list-style: none;
+
+}
+.nav-link li a{
+    color: #fff;
+    font-size: 1.2rem;
+}
