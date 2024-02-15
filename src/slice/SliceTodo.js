@@ -3,6 +3,7 @@ export const fetchTodos = createAsyncThunk('name',async()=>{
     const name = await fetch('https://jsonplaceholder.typicode.com/todos')
     return name.json()
 })
+//commit added
 const slice = createSlice({
     name:'slice',
     initialState:{
